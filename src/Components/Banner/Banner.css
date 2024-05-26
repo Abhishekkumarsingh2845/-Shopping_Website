@@ -8,7 +8,7 @@
 
 .banner {
   width: 100%;
-  height: 30%;
+  height: 50px;
   color: white; /* Ensure the text color contrasts with the background */
   background-color: black; /* Correct property name */
   padding: 20px; /* Optional: Add some padding for better appearance */
@@ -21,46 +21,48 @@
   height: 20%;
   display: flex; /* Add display flex to use justify-content */
   justify-content: flex-start; /* Correct usage of justify-content */
-  background-color: blue;
+  background-color: black;
   padding: 10px;
   margin-left: 270px;
+  margin-top: -20px;
 }
 
 .second {
   width: 20%;
   height: 20%;
-  margin-left: -30px;
-  background-color: yellow;
+  margin-right: 152px;
+  background-color: black;
   padding: 10px;
-  justify-content: flex-start; /* Correct usage of justify-content */
+  display: flex;
+  justify-content: flex-end; /* Correct usage of justify-content */
+  margin-top: -20px;
+
  
 
 }
 
-.secondouter
-{
-  width: 20%;
-  height: 70%;
-  margin-left: 220px;
-  background-color: olive;
-  flex-direction: row;
-}
+
 
 .firstinner {
   width: 80%;
   height: 10%;
-  background-color: orange;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .secondinner {
   width: 20%;
   height: 10%;
-  background-color: green;
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+
 }
 
 .firstText {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 450;
 }
 
 .secondinner {
@@ -72,6 +74,19 @@
 .text1
 {
   font-size: 1.1rem;
-  font-weight: 600;
+  margin-left: -180px;
+  font-weight: 450;
 
+}
+
+ .ima {
+  width:22px;
+  height:33px;
+}
+
+.secondText 
+{
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 13px;
 }
