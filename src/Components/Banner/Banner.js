@@ -1,7 +1,7 @@
 import './Banner.css';
   
 
-function App() {
+function Banner() {
   return (
     <div className="App">
       <div className="banner">
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default Banner;

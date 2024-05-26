@@ -1,0 +1,73 @@
+.Main {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Secondmain {
+    width: 90%;
+    height: 60px;
+    background-color: black;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .first {
+    width: 20%;
+    height: 20px;
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .firstT {
+    margin-top: -5px;
+    margin-right: 72px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .second {
+    width: 40%;
+   
+    height: 20px;
+    background-color: white;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-direction: row;
+  }
+  
+  .third {
+    width: 20%;
+    height: 40px;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    margin-top: 14px;
+  
+    justify-content: flex-start;
+  }
+  
+  .ss
+  {
+      font-size:18px;
+      color:black;
+      margin-top: 2px;
+     
+  }
+  
+  .inp {
+      width: 60%;
+      height: 50%;
+      margin-top: 10px;
+      background-color: whitesmoke;
+      border-width: 0.1px;
+  }
+  

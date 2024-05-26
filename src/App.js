@@ -1,10 +1,12 @@
 import React from "react";
-import Banner from "./Components/Banner/Banner";
+import Header from "./Components/Header/Header";
+import Banner from "./Components/Banner/Banner"
 
 function App() {
   return (
     <div>
-      <Banner />
+      <Banner/>
+      <Header />
     </div>
   );
 }
