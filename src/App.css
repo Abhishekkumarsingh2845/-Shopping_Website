@@ -1,0 +1,77 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  width: 100%; /* Remove quotes */
+  height: 100%; /* Remove quotes */
+}
+
+.banner {
+  width: 100%;
+  height: 30%;
+  color: white; /* Ensure the text color contrasts with the background */
+  background-color: black; /* Correct property name */
+  padding: 20px; /* Optional: Add some padding for better appearance */
+  display: flex; /* Add display flex to use justify-content */
+  justify-content: space-between; /* Correct usage of justify-content */
+}
+
+.first {
+  width: 50%;
+  height: 20%;
+  display: flex; /* Add display flex to use justify-content */
+  justify-content: flex-start; /* Correct usage of justify-content */
+  background-color: blue;
+  padding: 10px;
+  margin-left: 270px;
+}
+
+.second {
+  width: 20%;
+  height: 20%;
+  margin-left: -30px;
+  background-color: yellow;
+  padding: 10px;
+  justify-content: flex-start; /* Correct usage of justify-content */
+ 
+
+}
+
+.secondouter
+{
+  width: 20%;
+  height: 70%;
+  margin-left: 220px;
+  background-color: olive;
+  flex-direction: row;
+}
+
+.firstinner {
+  width: 80%;
+  height: 10%;
+  background-color: orange;
+}
+
+.secondinner {
+  width: 20%;
+  height: 10%;
+  background-color: green;
+}
+
+.firstText {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.secondinner {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.text1
+{
+  font-size: 1.1rem;
+  font-weight: 600;
+
+}
