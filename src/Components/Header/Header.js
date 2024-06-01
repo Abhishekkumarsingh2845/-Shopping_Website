@@ -1,27 +1,34 @@
 import React from "react";
+import searchImage from "./../../Assets/Img/search.png";
+import whislist from './../../Assets/Img/e-commerce.png'
+import cart from "./../../Assets/Img/shopping-cart (1).png"
 
 import "./Header.css";
 
 function Header() {
   return (
     <div>
-      
       <div className="Main">
-        <div className="Secondmain">
-          <div className="first">
-            <p className="firstT">Exclusive</p>
+        <div className="SecondMain ">
+          <div className="firsttt">
+            <p className="firstContxt">Exlcusive</p>
           </div>
-          <div className="second">
-         <p className="ss">Home</p>
-         <p className="ss">Contact</p>
-         <p className="ss">About</p>
-         <p className="ss">Signup</p>
+          <div className='secondttt'>
+          <li><a href="#home" className="home-link">Home</a></li>
+        <li><a href="#about" className="home-link">About</a></li>
+        <li><a href="#services" className="home-link">Services</a></li>
+        <li><a href="#contact" className="home-link">Contact</a></li>
           </div>
-          <div className="third">
-            <input 
-            className="inp"
-            placeholder="What are you looking for"/>
-          </div>
+          <div className='thirdttt'>
+             <input type="text"
+             className="inputtyp"
+             placeholder="What are You Looking for?"/>
+             <img src={searchImage} className="seachbar"/>
+             <div className="twoimg">
+             <img src={whislist} className="whlist"/>
+             <img src={cart} className="whlist"/>
+             </div>
+             </div>
         </div>
       </div>
     </div>

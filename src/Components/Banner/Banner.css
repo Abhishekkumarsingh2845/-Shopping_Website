@@ -8,7 +8,7 @@
 
 .banner {
   width: 100%;
-  height: 50px;
+  height: 20px;
   color: white; /* Ensure the text color contrasts with the background */
   background-color: black; /* Correct property name */
   padding: 20px; /* Optional: Add some padding for better appearance */
@@ -17,7 +17,7 @@
 }
 
 .first {
-  width: 50%;
+  width: 90%;
   height: 20%;
   display: flex; /* Add display flex to use justify-content */
   justify-content: flex-start; /* Correct usage of justify-content */
@@ -49,6 +49,7 @@
   background-color: black;
   display: flex;
   justify-content: flex-end;
+margin-left: -70px;
 }
 
 .secondinner {
