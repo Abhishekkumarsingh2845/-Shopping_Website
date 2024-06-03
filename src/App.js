@@ -6,8 +6,8 @@ import  Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div>
-      {/* <Banner/>
-      <Header /> */}
+   
+      
      <Footer/>
     </div>
   );
